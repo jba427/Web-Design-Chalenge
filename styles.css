@@ -58,7 +58,8 @@ h3 {
 }
 
 #nav-select {
-  visibility: hidden;
+  visibility: visible;
+  position: right;
 }
 
 /* Adding media queries to show the drop-down, and hide the navbar when the screen is smaller than 480 pixels */

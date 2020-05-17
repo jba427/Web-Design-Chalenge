@@ -12,55 +12,36 @@
     
   <div class="container">
     <nav class="navbar">
-      <ul>
-        <li>
-          <a href="index.html">Home</a>
-        </li>
-        <li>
-          <a href="comparison.html">Comparisons</a>
-        </li>
-        <li>
-          <a href="visualization1.html">Visualization1</a>
-        </li>
-        <li>
-          <a href="visualization2.html">Visualization2</a>
-        </li>
-        <li>
-          <a href="visualization3.html">Visualization3</a>
-        </li>
-        <li>
-          <a href="visualization4.html">Visualization4</a>
-        </li>
-        <li>
+        <ul>
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="comparison.html">Comparisons</a>
+          </li>
+          <li>
             <a href="data.html">Data</a>
-        </li>
-    </ul>
-      <select id="nav-select">
-        <option value="home">Home</option>
-        <option value="comparison">Comparison</option>
-        <option value="visualization1">Visualization1</option>
-        <option value="visualization2">Visualization2</option>
+          </li>
+        </ul>
+  
+    <select id="nav-select" onchange="location.href=this.value">
+        <option value="#"></option>
+        <option value="visualization1.html">Visualization Page 1</option>
+        <option value="visualization2.html">Visualization Page 2</option>
+        <option value="visualization3.html">Visualization Page 3</option>
+        <option value="visualization4.html">Visualization Page 4</option>
       </select>
-      <div class="clearfix"></div>
     </nav>
 
+  </div>
   <!-- Header -->
-  <h1>Climate Research Home Page</h1>
-
-  <a href="visualization1.html" target="_blank">Visualization Page 1</a>
-  <br>
-  <a href="visualization2.html" target="_blank">Visualization Page 2</a>
-  <br>
-  <a href="visualization3.html" target="_blank">Visualization Page 3</a>
-  <br>
-  <a href="visualization4.html" target="_blank">Visualization Page 4</a>
-  <br>
-  <a href="comparison.html" target="_blank">Comparisons</a>
-  <br>
-  <a href="data.html" target="_blank">Data Page</a>
-  <br>
-
-
+  <header class="header">
+     <h1>Climate Research Home Page</h1>
+  </header>
+  <main>
+     <h3>This is the main page of the project.</h3>
+     <p>this is just a bunch of text now.</p>
+  </main>
 </body>
 
 </html>
